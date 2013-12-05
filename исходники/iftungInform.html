@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type"
+	content="text/html; charset=windows-1251">
+<title>background-image</title>
+<style>
+body {
+	background-image: url(images/bg.jpg); /* Путь к фоновому изображению */
+}
+
+.main {
+	margin: center; /* Внешних отступов 0, делаем элемент по центру */
+	width: 100%; /* Обяхательно наличие ширины */
+	text-align: left; /* Текст по левому краю  */
+}
+
+.tabs {
+	opacity: 0; /* Прозрачность */
+	visibility: hidden; /* Изначально - спрятан */
+}
+
+.tab {
+	position: absolute; /* Абсолютное позиционирование */
+	visibility: hidden; /* Изначально - спрятан */
+	z-index: 10; /* z-index */
+	color: bleck; /* Цвет */
+	font: bold 12pt "Trebuchet MS", tahoma, verdana, arial narrow, arial;
+	/* Толщина, размер и семейство шрифта */
+}
+
+.tabs:target+.tab {
+	opacity: 1; /* Убирает прозрачность */
+	visibility: visible; /* Делает видимым */
+}
+
+.tabsLink a {
+	background-color: #478CFB; /* Цвет */
+	padding: 5px; /* Внутренние отступы */
+	font: bold 12pt "Trebuchet MS", tahoma, verdana, arial narrow, arial;
+	/* Толщина, размер и семейство шрифта */
+	color: #fff; /* Цвет */
+	text-decoration: none; /* Отсутствие нижней линии */
+	/* Округление старт */
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	/* Округление конец */
+}
+</style>
+</head>
+<body>
+	<div class="main">
+		<br> <br> <br> <br> <br> <br> <br>
+		<br> <br> <br>
+		<div class="tabsLink" align="center">
+			<a href="iftungInform.html"">Головна</a> <a href="#tab2">Для викладачів</a> <a href="#tab3">Для студентів</a> <a href="#tab4">Зааудиторією</a> <a href="adminbd.html" align="center">Адміністрування
+				БД</a>
+		</div>
+
+		<br> <a class="tabs" id="tab2"></a>
+		<div class="tab">
+			<table border="2" >
+				<tr>
+					<td  style="width: 100%" >dsfrtghkjjnhg</td>
+					<td ></td>
+				</tr>
+
+
+			</table>
+
+		</div>
+
+		<a class="tabs" id="tab3"></a>
+		<div class="tab">
+			Для студентів <br>
+		</div>
+
+		<a class="tabs" id="tab4"></a>
+		<div class="tab">
+			За аудиторією<br>
+		</div>
+</body>
+</html>
