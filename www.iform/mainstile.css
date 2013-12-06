@@ -1,0 +1,48 @@
+.main {
+	margin:0 auto;	/* Внешних отступов 0, делаем элемент по центру */
+	width:200Px	/* Обяхательно наличие ширины */
+	text-align:left;	/* Текст по левому краю  */
+	
+}
+
+.tabs {
+    opacity: 0;  /* Прозрачность */
+    visibility: hidden; /* Изначально - спрятан */
+}
+.tab{
+	position:absolute; /* Абсолютное позиционирование */
+    visibility: hidden;    /* Изначально - спрятан */
+    z-index: 10;    /* z-index */
+    color: bleck; /* Цвет */
+    font: bold 12pt "Trebuchet MS", tahoma, verdana, arial narrow, arial; /* Толщина, размер и семейство шрифта */
+}
+
+.tabs:target+.tab {
+    opacity: 1; /* Убирает прозрачность */
+    visibility: visible; /* Делает видимым */
+}
+
+.tabsLink a{
+	
+	background-color:#478CFB; /* Цвет */
+	padding:5px; /* Внутренние отступы */
+	font: bold 12pt "Trebuchet MS", tahoma, verdana, arial narrow, arial; /* Толщина, размер и семейство шрифта */
+	color:#fff; /* Цвет */
+	text-decoration:none; /* Отсутствие нижней линии */
+	
+	/* Округление старт */
+
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	/* Округление конец */
+}
+.doct{
+	margin-left: 200Px;
+}
+.stup{
+	margin-left: 200Px;
+}
