@@ -1,6 +1,10 @@
+
+.viklad{
+margin-left: 800Px;
+}
 .main {
 	margin:0 auto;	/* Внешних отступов 0, делаем элемент по центру */
-	width:200Px	/* Обяхательно наличие ширины */
+	width:300Px	/* Обяхательно наличие ширины */
 	text-align:left;	/* Текст по левому краю  */
 	
 }
@@ -13,7 +17,7 @@
 	position:absolute; /* Абсолютное позиционирование */
     visibility: hidden;    /* Изначально - спрятан */
     z-index: 10;    /* z-index */
-    color: bleck; /* Цвет */
+    color: black; /* Цвет */
     font: bold 12pt "Trebuchet MS", tahoma, verdana, arial narrow, arial; /* Толщина, размер и семейство шрифта */
 }
 
@@ -23,12 +27,14 @@
 }
 
 .tabsLink a{
+
 	
 	background-color:#478CFB; /* Цвет */
 	padding:5px; /* Внутренние отступы */
 	font: bold 12pt "Trebuchet MS", tahoma, verdana, arial narrow, arial; /* Толщина, размер и семейство шрифта */
 	color:#fff; /* Цвет */
 	text-decoration:none; /* Отсутствие нижней линии */
+	text-align:left;
 	
 	/* Округление старт */
 
@@ -40,9 +46,19 @@
 	border-top-right-radius: 10px;
 	/* Округление конец */
 }
-.doct{
-	margin-left: 200Px;
+.warning{
+color:red;
 }
 .stup{
 	margin-left: 200Px;
+}
+.roz{
+color:blue;
+margin-left: 20px;
+}
+.ip{
+margin-top: 20%;
+}
+.copi{
+color:grey;
 }
