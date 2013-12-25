@@ -1,0 +1,85 @@
+.stor{
+background: grey;
+height: 1000px; 
+width: 100%;
+}
+.verh{
+margin: 1%,1% ;
+height: 15%; 
+width: 100%; 
+background: red;
+
+}  
+.logo{
+border-radius: 40px 10px;
+ margin-left: 5%;
+height: 90%; 
+width: 17%; 
+background: green;
+	}	
+		.main{
+ position: relative;
+ left: 26%;
+margin-top: 1%;
+height: 75%; 
+width: 49%; 
+background: yellow;
+float: left;
+
+}		
+.page{
+margin: 1%,1% ;
+height: 5%; 
+width: 100%; 
+background: blue;	
+}
+.bl1{
+position: relative;
+left: 1%;
+margin-top: 1%;
+height: 35.5%; 
+width: 24%; 
+background: pink;	
+
+
+}
+.bl2{
+position: relative;
+left: 1%;
+ margin-top: 1%;
+ height: 35.5%; 
+width: 24%; 
+background: pink;
+position: relative;
+
+}
+
+.bl3{
+	float: right;
+	position: relative;
+right:1%;
+margin-top: 1%;
+
+height: 35.5%; 
+width: 23%; 
+background: violet;	
+
+}
+.bl4{
+	float: right;
+	position: relative;
+right:1%;
+margin-top: 1%;
+
+height: 35.5%; 
+width: 23%; 
+background: violet;	
+
+}
+.end{
+position: relative;
+margin-top: 1%;
+height: 5%; 
+width: 100%; 
+background: red;	
+}
